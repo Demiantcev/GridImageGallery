@@ -9,21 +9,33 @@
 /* Begin PBXBuildFile section */
 		EB46020E29FD1CFA007D9915 /* AppDelegate.swift in Sources */ = {isa = PBXBuildFile; fileRef = EB46020D29FD1CFA007D9915 /* AppDelegate.swift */; };
 		EB46021029FD1CFA007D9915 /* SceneDelegate.swift in Sources */ = {isa = PBXBuildFile; fileRef = EB46020F29FD1CFA007D9915 /* SceneDelegate.swift */; };
-		EB46021229FD1CFA007D9915 /* ViewController.swift in Sources */ = {isa = PBXBuildFile; fileRef = EB46021129FD1CFA007D9915 /* ViewController.swift */; };
-		EB46021529FD1CFA007D9915 /* Main.storyboard in Resources */ = {isa = PBXBuildFile; fileRef = EB46021329FD1CFA007D9915 /* Main.storyboard */; };
 		EB46021729FD1CFB007D9915 /* Assets.xcassets in Resources */ = {isa = PBXBuildFile; fileRef = EB46021629FD1CFB007D9915 /* Assets.xcassets */; };
 		EB46021A29FD1CFB007D9915 /* LaunchScreen.storyboard in Resources */ = {isa = PBXBuildFile; fileRef = EB46021829FD1CFB007D9915 /* LaunchScreen.storyboard */; };
+		EB46022229FD1DC1007D9915 /* ImageCollectionViewCell.swift in Sources */ = {isa = PBXBuildFile; fileRef = EB46022129FD1DC1007D9915 /* ImageCollectionViewCell.swift */; };
+		EB46022529FD2246007D9915 /* GalleryImageViewController.swift in Sources */ = {isa = PBXBuildFile; fileRef = EB46022429FD2246007D9915 /* GalleryImageViewController.swift */; };
+		EB46022C29FD5CFA007D9915 /* DetailViewController.swift in Sources */ = {isa = PBXBuildFile; fileRef = EB46022B29FD5CFA007D9915 /* DetailViewController.swift */; };
+		EB4602362A00135C007D9915 /* MyImageView.swift in Sources */ = {isa = PBXBuildFile; fileRef = EB4602352A00135C007D9915 /* MyImageView.swift */; };
+		EB46023D2A0086B1007D9915 /* Downloader.swift in Sources */ = {isa = PBXBuildFile; fileRef = EB46023C2A0086B1007D9915 /* Downloader.swift */; };
+		EB4602412A00B0C7007D9915 /* MTUserDefaults.swift in Sources */ = {isa = PBXBuildFile; fileRef = EB4602402A00B0C7007D9915 /* MTUserDefaults.swift */; };
+		EB4602632A012B83007D9915 /* Theme.swift in Sources */ = {isa = PBXBuildFile; fileRef = EB4602622A012B83007D9915 /* Theme.swift */; };
 /* End PBXBuildFile section */
 
 /* Begin PBXFileReference section */
+		91555EF0E160DE6912CE8FAB /* Pods-GridGallery.debug.xcconfig */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = text.xcconfig; name = "Pods-GridGallery.debug.xcconfig"; path = "Target Support Files/Pods-GridGallery/Pods-GridGallery.debug.xcconfig"; sourceTree = "<group>"; };
+		A243BC8957FDB20CCF4E14CA /* Pods-GridGallery.release.xcconfig */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = text.xcconfig; name = "Pods-GridGallery.release.xcconfig"; path = "Target Support Files/Pods-GridGallery/Pods-GridGallery.release.xcconfig"; sourceTree = "<group>"; };
 		EB46020A29FD1CFA007D9915 /* GridGallery.app */ = {isa = PBXFileReference; explicitFileType = wrapper.application; includeInIndex = 0; path = GridGallery.app; sourceTree = BUILT_PRODUCTS_DIR; };
 		EB46020D29FD1CFA007D9915 /* AppDelegate.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = AppDelegate.swift; sourceTree = "<group>"; };
 		EB46020F29FD1CFA007D9915 /* SceneDelegate.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = SceneDelegate.swift; sourceTree = "<group>"; };
-		EB46021129FD1CFA007D9915 /* ViewController.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = ViewController.swift; sourceTree = "<group>"; };
-		EB46021429FD1CFA007D9915 /* Base */ = {isa = PBXFileReference; lastKnownFileType = file.storyboard; name = Base; path = Base.lproj/Main.storyboard; sourceTree = "<group>"; };
 		EB46021629FD1CFB007D9915 /* Assets.xcassets */ = {isa = PBXFileReference; lastKnownFileType = folder.assetcatalog; path = Assets.xcassets; sourceTree = "<group>"; };
 		EB46021929FD1CFB007D9915 /* Base */ = {isa = PBXFileReference; lastKnownFileType = file.storyboard; name = Base; path = Base.lproj/LaunchScreen.storyboard; sourceTree = "<group>"; };
 		EB46021B29FD1CFB007D9915 /* Info.plist */ = {isa = PBXFileReference; lastKnownFileType = text.plist.xml; path = Info.plist; sourceTree = "<group>"; };
+		EB46022129FD1DC1007D9915 /* ImageCollectionViewCell.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = ImageCollectionViewCell.swift; sourceTree = "<group>"; };
+		EB46022429FD2246007D9915 /* GalleryImageViewController.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = GalleryImageViewController.swift; sourceTree = "<group>"; };
+		EB46022B29FD5CFA007D9915 /* DetailViewController.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = DetailViewController.swift; sourceTree = "<group>"; };
+		EB4602352A00135C007D9915 /* MyImageView.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = MyImageView.swift; sourceTree = "<group>"; };
+		EB46023C2A0086B1007D9915 /* Downloader.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = Downloader.swift; sourceTree = "<group>"; };
+		EB4602402A00B0C7007D9915 /* MTUserDefaults.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = MTUserDefaults.swift; sourceTree = "<group>"; };
+		EB4602622A012B83007D9915 /* Theme.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = Theme.swift; sourceTree = "<group>"; };
 /* End PBXFileReference section */
 
 /* Begin PBXFrameworksBuildPhase section */
@@ -37,11 +49,21 @@
 /* End PBXFrameworksBuildPhase section */
 
 /* Begin PBXGroup section */
+		DE7B49C6B8C3D436D466D667 /* Pods */ = {
+			isa = PBXGroup;
+			children = (
+				91555EF0E160DE6912CE8FAB /* Pods-GridGallery.debug.xcconfig */,
+				A243BC8957FDB20CCF4E14CA /* Pods-GridGallery.release.xcconfig */,
+			);
+			path = Pods;
+			sourceTree = "<group>";
+		};
 		EB46020129FD1CFA007D9915 = {
 			isa = PBXGroup;
 			children = (
 				EB46020C29FD1CFA007D9915 /* GridGallery */,
 				EB46020B29FD1CFA007D9915 /* Products */,
+				DE7B49C6B8C3D436D466D667 /* Pods */,
 			);
 			sourceTree = "<group>";
 		};
@@ -58,13 +80,42 @@
 			children = (
 				EB46020D29FD1CFA007D9915 /* AppDelegate.swift */,
 				EB46020F29FD1CFA007D9915 /* SceneDelegate.swift */,
-				EB46021129FD1CFA007D9915 /* ViewController.swift */,
-				EB46021329FD1CFA007D9915 /* Main.storyboard */,
+				EB46023B2A008680007D9915 /* Service */,
+				EB46022629FD224A007D9915 /* Controller */,
+				EB46022329FD222D007D9915 /* View */,
 				EB46021629FD1CFB007D9915 /* Assets.xcassets */,
 				EB46021829FD1CFB007D9915 /* LaunchScreen.storyboard */,
 				EB46021B29FD1CFB007D9915 /* Info.plist */,
 			);
 			path = GridGallery;
+			sourceTree = "<group>";
+		};
+		EB46022329FD222D007D9915 /* View */ = {
+			isa = PBXGroup;
+			children = (
+				EB46022129FD1DC1007D9915 /* ImageCollectionViewCell.swift */,
+			);
+			path = View;
+			sourceTree = "<group>";
+		};
+		EB46022629FD224A007D9915 /* Controller */ = {
+			isa = PBXGroup;
+			children = (
+				EB46022429FD2246007D9915 /* GalleryImageViewController.swift */,
+				EB46022B29FD5CFA007D9915 /* DetailViewController.swift */,
+			);
+			path = Controller;
+			sourceTree = "<group>";
+		};
+		EB46023B2A008680007D9915 /* Service */ = {
+			isa = PBXGroup;
+			children = (
+				EB4602352A00135C007D9915 /* MyImageView.swift */,
+				EB46023C2A0086B1007D9915 /* Downloader.swift */,
+				EB4602402A00B0C7007D9915 /* MTUserDefaults.swift */,
+				EB4602622A012B83007D9915 /* Theme.swift */,
+			);
+			path = Service;
 			sourceTree = "<group>";
 		};
 /* End PBXGroup section */
@@ -74,9 +125,11 @@
 			isa = PBXNativeTarget;
 			buildConfigurationList = EB46021E29FD1CFB007D9915 /* Build configuration list for PBXNativeTarget "GridGallery" */;
 			buildPhases = (
+				0705C41697AE720DEC687ACB /* [CP] Check Pods Manifest.lock */,
 				EB46020629FD1CFA007D9915 /* Sources */,
 				EB46020729FD1CFA007D9915 /* Frameworks */,
 				EB46020829FD1CFA007D9915 /* Resources */,
+				DAC28F99EB71A115FD101662 /* [CP] Embed Pods Frameworks */,
 			);
 			buildRules = (
 			);
@@ -127,34 +180,73 @@
 			files = (
 				EB46021A29FD1CFB007D9915 /* LaunchScreen.storyboard in Resources */,
 				EB46021729FD1CFB007D9915 /* Assets.xcassets in Resources */,
-				EB46021529FD1CFA007D9915 /* Main.storyboard in Resources */,
 			);
 			runOnlyForDeploymentPostprocessing = 0;
 		};
 /* End PBXResourcesBuildPhase section */
+
+/* Begin PBXShellScriptBuildPhase section */
+		0705C41697AE720DEC687ACB /* [CP] Check Pods Manifest.lock */ = {
+			isa = PBXShellScriptBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+			);
+			inputFileListPaths = (
+			);
+			inputPaths = (
+				"${PODS_PODFILE_DIR_PATH}/Podfile.lock",
+				"${PODS_ROOT}/Manifest.lock",
+			);
+			name = "[CP] Check Pods Manifest.lock";
+			outputFileListPaths = (
+			);
+			outputPaths = (
+				"$(DERIVED_FILE_DIR)/Pods-GridGallery-checkManifestLockResult.txt",
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+			shellPath = /bin/sh;
+			shellScript = "diff \"${PODS_PODFILE_DIR_PATH}/Podfile.lock\" \"${PODS_ROOT}/Manifest.lock\" > /dev/null\nif [ $? != 0 ] ; then\n    # print error to STDERR\n    echo \"error: The sandbox is not in sync with the Podfile.lock. Run 'pod install' or update your CocoaPods installation.\" >&2\n    exit 1\nfi\n# This output is used by Xcode 'outputs' to avoid re-running this script phase.\necho \"SUCCESS\" > \"${SCRIPT_OUTPUT_FILE_0}\"\n";
+			showEnvVarsInLog = 0;
+		};
+		DAC28F99EB71A115FD101662 /* [CP] Embed Pods Frameworks */ = {
+			isa = PBXShellScriptBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+			);
+			inputFileListPaths = (
+				"${PODS_ROOT}/Target Support Files/Pods-GridGallery/Pods-GridGallery-frameworks-${CONFIGURATION}-input-files.xcfilelist",
+			);
+			name = "[CP] Embed Pods Frameworks";
+			outputFileListPaths = (
+				"${PODS_ROOT}/Target Support Files/Pods-GridGallery/Pods-GridGallery-frameworks-${CONFIGURATION}-output-files.xcfilelist",
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+			shellPath = /bin/sh;
+			shellScript = "\"${PODS_ROOT}/Target Support Files/Pods-GridGallery/Pods-GridGallery-frameworks.sh\"\n";
+			showEnvVarsInLog = 0;
+		};
+/* End PBXShellScriptBuildPhase section */
 
 /* Begin PBXSourcesBuildPhase section */
 		EB46020629FD1CFA007D9915 /* Sources */ = {
 			isa = PBXSourcesBuildPhase;
 			buildActionMask = 2147483647;
 			files = (
-				EB46021229FD1CFA007D9915 /* ViewController.swift in Sources */,
+				EB4602632A012B83007D9915 /* Theme.swift in Sources */,
+				EB46022229FD1DC1007D9915 /* ImageCollectionViewCell.swift in Sources */,
+				EB4602362A00135C007D9915 /* MyImageView.swift in Sources */,
+				EB46023D2A0086B1007D9915 /* Downloader.swift in Sources */,
 				EB46020E29FD1CFA007D9915 /* AppDelegate.swift in Sources */,
+				EB46022C29FD5CFA007D9915 /* DetailViewController.swift in Sources */,
+				EB46022529FD2246007D9915 /* GalleryImageViewController.swift in Sources */,
 				EB46021029FD1CFA007D9915 /* SceneDelegate.swift in Sources */,
+				EB4602412A00B0C7007D9915 /* MTUserDefaults.swift in Sources */,
 			);
 			runOnlyForDeploymentPostprocessing = 0;
 		};
 /* End PBXSourcesBuildPhase section */
 
 /* Begin PBXVariantGroup section */
-		EB46021329FD1CFA007D9915 /* Main.storyboard */ = {
-			isa = PBXVariantGroup;
-			children = (
-				EB46021429FD1CFA007D9915 /* Base */,
-			);
-			name = Main.storyboard;
-			sourceTree = "<group>";
-		};
 		EB46021829FD1CFB007D9915 /* LaunchScreen.storyboard */ = {
 			isa = PBXVariantGroup;
 			children = (
@@ -282,6 +374,7 @@
 		};
 		EB46021F29FD1CFB007D9915 /* Debug */ = {
 			isa = XCBuildConfiguration;
+			baseConfigurationReference = 91555EF0E160DE6912CE8FAB /* Pods-GridGallery.debug.xcconfig */;
 			buildSettings = {
 				ASSETCATALOG_COMPILER_APPICON_NAME = AppIcon;
 				ASSETCATALOG_COMPILER_GLOBAL_ACCENT_COLOR_NAME = AccentColor;
@@ -292,7 +385,7 @@
 				INFOPLIST_FILE = GridGallery/Info.plist;
 				INFOPLIST_KEY_UIApplicationSupportsIndirectInputEvents = YES;
 				INFOPLIST_KEY_UILaunchStoryboardName = LaunchScreen;
-				INFOPLIST_KEY_UIMainStoryboardFile = Main;
+				INFOPLIST_KEY_UIMainStoryboardFile = "";
 				INFOPLIST_KEY_UISupportedInterfaceOrientations_iPad = "UIInterfaceOrientationPortrait UIInterfaceOrientationPortraitUpsideDown UIInterfaceOrientationLandscapeLeft UIInterfaceOrientationLandscapeRight";
 				INFOPLIST_KEY_UISupportedInterfaceOrientations_iPhone = "UIInterfaceOrientationPortrait UIInterfaceOrientationLandscapeLeft UIInterfaceOrientationLandscapeRight";
 				LD_RUNPATH_SEARCH_PATHS = (
@@ -310,6 +403,7 @@
 		};
 		EB46022029FD1CFB007D9915 /* Release */ = {
 			isa = XCBuildConfiguration;
+			baseConfigurationReference = A243BC8957FDB20CCF4E14CA /* Pods-GridGallery.release.xcconfig */;
 			buildSettings = {
 				ASSETCATALOG_COMPILER_APPICON_NAME = AppIcon;
 				ASSETCATALOG_COMPILER_GLOBAL_ACCENT_COLOR_NAME = AccentColor;
@@ -320,7 +414,7 @@
 				INFOPLIST_FILE = GridGallery/Info.plist;
 				INFOPLIST_KEY_UIApplicationSupportsIndirectInputEvents = YES;
 				INFOPLIST_KEY_UILaunchStoryboardName = LaunchScreen;
-				INFOPLIST_KEY_UIMainStoryboardFile = Main;
+				INFOPLIST_KEY_UIMainStoryboardFile = "";
 				INFOPLIST_KEY_UISupportedInterfaceOrientations_iPad = "UIInterfaceOrientationPortrait UIInterfaceOrientationPortraitUpsideDown UIInterfaceOrientationLandscapeLeft UIInterfaceOrientationLandscapeRight";
 				INFOPLIST_KEY_UISupportedInterfaceOrientations_iPhone = "UIInterfaceOrientationPortrait UIInterfaceOrientationLandscapeLeft UIInterfaceOrientationLandscapeRight";
 				LD_RUNPATH_SEARCH_PATHS = (
